@@ -19,7 +19,12 @@ sudo apt install gcc cmake waybar
 ## Build & Install
 
 ```bash
-git clone https://github.com/yourusername/sysfetch.git
+# For SSH
+git clone git@github.com:LackJaw42/sysfetch.git
+
+# For HTTPS
+https://github.com/LackJaw42/sysfetch.git
+
 cd sysfetch
 cmake -B build
 cmake --build build
